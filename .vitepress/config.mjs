@@ -35,7 +35,7 @@ export default defineConfig({
           .sort((a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date))
           .map((page) => ({
             title: page.frontmatter.title,
-            url: `${SITE_URL}/${page.url.replace(/\.md$/, '')}`,
+            url: `${SITE_URL}${page.url.replace(/\.md$/, '')}`,
             date: page.frontmatter.date,
             description: page.frontmatter.summary || page.excerpt?.replace(/<[^>]*>/g, '').slice(0, 200) || '',
           }))
