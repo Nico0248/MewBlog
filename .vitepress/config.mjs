@@ -20,11 +20,11 @@ export default defineConfig({
   title: SITE_TITLE,
   description: SITE_DESCRIPTION,
 
+  // GitHub Pages 子路径前缀
+  base: '/MewBlog/',
+
   // 主题配置
   appearance: true, // 暗色/亮色模式
-
-  // 清理 URL（去掉 .html 后缀）
-  cleanUrls: true,
 
   // 构建时自动生成 RSS
   async buildEnd(siteConfig) {
