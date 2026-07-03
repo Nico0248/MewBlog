@@ -6,6 +6,7 @@ layout: home
 import { data as posts } from './posts.data.mjs'
 import { ref, computed } from 'vue'
 import { withBase } from 'vitepress'
+import NewsletterSignup from './.vitepress/theme/components/NewsletterSignup.vue'
 
 const activeCategory = ref('all')
 const activeTag = ref('')
@@ -36,6 +37,8 @@ function filterByTag(tag) {
 # 👋 Niko 的博客
 
 技术学习与生活思考
+
+<NewsletterSignup />
 
 <div class="filters">
   <div class="category-filters">
