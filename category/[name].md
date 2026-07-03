@@ -4,7 +4,7 @@ layout: page
 
 <script setup>
 import { data as posts } from '../posts.data.mjs'
-import { useData } from 'vitepress'
+import { useData, withBase } from 'vitepress'
 import { computed } from 'vue'
 
 const { params } = useData()
@@ -24,7 +24,7 @@ const filteredPosts = computed(() =>
 
 <div v-for="post in filteredPosts" :key="post.url" class="post-card">
   <span class="post-date">{{ new Date(post.date).toLocaleDateString('zh-CN') }}</span>
-  <a :href="post.url" class="post-title">{{ post.title }}</a>
+  <a :href="withBase(post.url)" class="post-title">{{ post.title }}</a>
   <p class="post-summary">{{ post.summary }}</p>
   <div class="post-tags">
     <span v-for="tag in post.tags" :key="tag" class="tag-badge">#{{ tag }}</span>

@@ -5,6 +5,7 @@ layout: home
 <script setup>
 import { data as posts } from './posts.data.mjs'
 import { ref, computed } from 'vue'
+import { withBase } from 'vitepress'
 
 const activeCategory = ref('all')
 const activeTag = ref('')
@@ -58,7 +59,7 @@ function filterByTag(tag) {
   <span class="post-category" :class="post.category">
     {{ post.category === 'tech' ? '技术' : '生活' }}
   </span>
-  <a :href="post.url" class="post-title">{{ post.title }}</a>
+  <a :href="withBase(post.url)" class="post-title">{{ post.title }}</a>
   <p class="post-summary">{{ post.summary }}</p>
   <div class="post-tags">
     <span
