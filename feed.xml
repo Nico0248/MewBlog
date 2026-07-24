@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niko 的博客</title>
+    <link>https://nico0248.github.io/MewBlog</link>
+    <description>技术学习与生活思考</description>
+    <language>zh-CN</language>
+    <atom:link href="https://nico0248.github.io/MewBlog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>微调应该用在哪里</title>
+      <link>https://nico0248.github.io/MewBlog/posts/finetune-vs-rag-vs-workflow.html</link>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description>RAG 已经这么方便了，微调到底还有什么用？记录一次讨论：RAG 教模型&quot;知道什么&quot;，微调教模型&quot;怎么做&quot;；工作流是棋谱，训练是下一万盘棋内化出的棋感。</description>
+    </item>
+    <item>
+      <title>记一次谈话和一些关于大学历程的思考</title>
+      <link>https://nico0248.github.io/MewBlog/posts/talk-with-uncle.html</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
+      <description>昨天和叔叔聊了很久。</description>
+    </item>
+    <item>
+      <title>把 Claude Code 接入微信：从两行命令到生产可用的全过程</title>
+      <link>https://nico0248.github.io/MewBlog/posts/cc-weixin-to-wechat.html</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>npx cc-weixin 两行命令就能把 AI 助手接进微信。但真正让它好用，踩了 spawn EFTYPE、聊天日志、typing 状态、权限系统等一堆坑。</description>
+    </item>
+    <item>
+      <title>用 AI 蒸馏自己的人格：三种方案失败之后，换了个思路反而成了</title>
+      <link>https://nico0248.github.io/MewBlog/posts/distill-my-personality.html</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>想让 AI 说话像自己——试了纯文本、对话上下文、归档格式三种蒸馏方案全部失败。但换了个模型、发了一份角色卡之后，效果意外地好。虽然不能复刻我的说话方式，但对朋友来说，情绪承接和陪伴已经足够了。</description>
+    </item>
+    <item>
+      <title>Hello World — 博客开张</title>
+      <link>https://nico0248.github.io/MewBlog/posts/hello-world.html</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>折腾了好久终于把博客搭起来了。第一篇，记一下为什么要开这个博客。</description>
+    </item>
+    <item>
+      <title>我家的猫：外八</title>
+      <link>https://nico0248.github.io/MewBlog/posts/my-cat-waiba.html</link>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <description>一只前脚外八、温顺胆小、喜欢看电脑屏幕的小猫。从流浪基地到我的房间，外八已经来了四个多月了。</description>
+    </item>
+  </channel>
+</rss>
