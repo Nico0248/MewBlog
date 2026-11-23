@@ -1,0 +1,1 @@
+import{_ as a,o as i,c as n,a0 as t}from"./chunks/framework.CDWbKMqd.js";const k=JSON.parse('{"title":"MewBlog","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),e={name:"README.md"};function l(p,s,h,d,o,r){return i(),n("div",null,[...s[0]||(s[0]=[t("",15)])])}const g=a(e,[["render",l]]);export{k as __pageData,g as default};
